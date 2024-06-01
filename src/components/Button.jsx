@@ -11,7 +11,7 @@ const Sosial = () => {
     {
       id: "2",
       name: "Linkedin",
-      link: "https://www.linkedin.com/in/putu-rivan-4758a5285",
+      link: "https://www.linkedin.com/in/putu-rivan",
       Logo: "/linkedin.png",
     },
     {
