@@ -1,4 +1,3 @@
-import { XLogo } from "@phosphor-icons/react";
 import React from "react";
 
 const Sosial = () => {
@@ -18,7 +17,7 @@ const Sosial = () => {
     {
       id: "3",
       name: "X",
-      link: "https://twitter.com/koreeeet",
+      link: "https://twitter.com/rivanputu_",
       Logo: "twitter.png",
     },
     {
@@ -35,7 +34,7 @@ const Sosial = () => {
         return (
           <a href={item.link} key={item.id} target="_blank">
             <div className="w-[300px] bg-[#333] p-2 rounded-xl grid grid-cols-3 hover:scale-105 hover:text-white">
-              <img src={item.Logo} alt=""/>
+              <img src={item.Logo} alt="" />
               <p className="text-center">{item.name}</p>
             </div>
           </a>
